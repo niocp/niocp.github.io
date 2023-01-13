@@ -5,50 +5,40 @@
 
   }
 
-header {text-align: center}
-
 #hed{ 
-    background-color:white;
+  
     background-image: url(./imagens/wppr12.png);
     background-repeat:no-repeat;
-    background-size:100% 100%;
-    
-    
+    background-size: 100% 100%;
+
 }
 
 #hedson{  
-    padding:385px;
+
+    padding: 20%;
     text-align: center;
     color: white;
     font-family: PixelFont;
-    font-size: large;
+    font-size: 1vw;
 }
 
-section {   
-    
-    position: relative;
-    left: 47.5%;
-    width: 100px;
-    height: 100px;
-      
-}
-
-#seta {background: center center / cover no-repeat; position: relative;
+#seta {
+  background: center center / cover no-repeat;
+  position: relative;
   left: 47.5%;
   width: 100px;
-  height: 100px;} 
+  height: 100px;
+} 
 
 #sessao2{
   
-  width: 100%; 
-  height: 1060px; 
   text-align: center; 
-  background-image: url(./imagens/wppr.jpg  );
+  background-image: url(./imagens/wppr.jpg );
   color: white;
   background-repeat:no-repeat;
   background-size:100% 100%;
   font-family: PixelFont;
-  font-size: large;
+  font-size: 1vw;
 
   }
 
@@ -57,9 +47,7 @@ section {
 img {height: auto;width: 32%} 
 
 #SobreMim {
-
-  width: 100%;
-  height: 792px; 
+ 
   background-color: blue; 
   text-align: left;
   white-space: pre-wrap;
@@ -68,14 +56,12 @@ img {height: auto;width: 32%}
   background-repeat:no-repeat;
   background-size:100% 100%;
   font-family:verdana;
-  font-size: large;
+  font-size: 1vw;
 
 }
 
 #Hobbies {
 
-  width: 100%;
-  height: 792px; 
   background-color: blue; 
   text-align: center;
   background-image: url(./imagens/wppr10.jpg);
@@ -84,18 +70,14 @@ img {height: auto;width: 32%}
   background-size:100% 100%;
   font-family: PixelFont;
   font-style: italic;
-  font-size: large
-
-
+  font-size: 1vw;
 
 }
 
 #Fot {
-
   background-color: #C06175  ;
   color: white;
   text-align: center;
-
 }
 
 .fa:hover {
@@ -113,28 +95,43 @@ img {height: auto;width: 32%}
 
 .fa-linkedin {
   color: black;
+  
 }
 
 .fa {
   padding: 20px;
-  margin: 5px 80px;
-  
+  margin: 0px 25px 0px 25px;
+   
 }
 
-@media only screen and (max-width:800px) {
-  /* For mobile phones: */
-  #hed, #hedson, #sessao2, #SobreMim, #Hobbies {
-  width:100%;
+/* Small devices */
+@media(max-width:544px){
+  #seta{
+    width: 10px;
+    height: 10px;
   }
+  #hedson,#sessao2,#SobreMim,#Hobbies{
+    font-size: 2vw;
   }
+}
 
+@media(max-width:800px){
+  #seta{
+    width: 20px;
+    height: 20px;
+  }
+  #hedson,#sessao2,#SobreMim,#Hobbies{
+    font-size: 1vw;
+  }
+}
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  #hed, #hedson, #sessao2, #SobreMim, #Hobbies {
-  width:100%;
+@media(max-width:1270px){
+  #seta{
+    width: 48px;
+    height: 48px;
   }
-  }
+}
+
 
 /* Style the Image Used to Trigger the Modal */
 .myImg {
